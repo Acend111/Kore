@@ -1,0 +1,90 @@
+
+newmtl StandardFFFFFF
+Kd  01 01 01
+Ks  0.8 0.8 0.8
+Ka  00 00 00
+d  01
+Ns  925
+illum 2
+
+
+
+
+newmtl FlatFFFFFF4a751b40295121.577a2d12abe45
+Kd  01 01 01
+Ks  0.8 0.8 0.8
+Ka  00 00 00
+d  01
+Ns  925
+illum 2
+map_Kd 4a751b40295121.577a2d12abe45.png
+
+
+
+
+newmtl Reflective4B5865
+Kd  0.2941177 0.345098 0.39607848
+Ks  0.8 0.8 0.8
+Ka  00 00 00
+d  01
+Ns  925
+illum 2
+
+
+
+
+newmtl Reflective666565
+Kd  0.4 0.39607848 0.39607848
+Ks  0.8 0.8 0.8
+Ka  00 00 00
+d  01
+Ns  925
+illum 2
+
+
+
+
+newmtl ReflectiveC8985D
+Kd  0.78431376 0.59607844 0.36470588
+Ks  0.8 0.8 0.8
+Ka  00 00 00
+d  01
+Ns  925
+illum 2
+
+
+
+
+newmtl ReflectiveFFFF00
+Kd  01 01 00
+Ks  0.8 0.8 0.8
+Ka  00 00 00
+d  01
+Ns  925
+illum 2
+
+
+
+
+newmtl Standard914128
+Kd  0.56862744 0.25490198 0.156862752
+Ks  0.8 0.8 0.8
+Ka  00 00 00
+d  01
+Ns  925
+illum 2
+
+
+
+
+newmtl Cartoon914128big_8000_oboi_cheshujchatye_oboi
+Kd  0.56862744 0.25490198 0.156862752
+Ks  0.8 0.8 0.8
+Ka  00 00 00
+d  01
+Ns  925
+illum 2
+map_Kd big_8000_oboi_cheshujchatye_oboi.png
+
+
+

@@ -1,0 +1,681 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6309a339880ce984cb77be7f417efa42, type: 3}
+  m_Name: Quests_Melee
+  m_EditorClassIdentifier: 
+  quests:
+  - {fileID: 114729265169317056}
+  - {fileID: 114894719325242116}
+  - {fileID: 114165526555254354}
+  - {fileID: 114142451010218724}
+  - {fileID: 114709903842452766}
+  - {fileID: 114153951413686120}
+  - {fileID: 114957303746663316}
+  - {fileID: 114333300214296034}
+  - {fileID: 114300590857487808}
+  - {fileID: 114292160054189064}
+  - {fileID: 114449815714864012}
+  - {fileID: 114263392984580200}
+  inEdition: 0
+  itemsHidden: 0
+--- !u!114 &114142451010218724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 137f4627fb55f434ab579718e357301b, type: 3}
+  m_Name: Collect Keycard
+  m_EditorClassIdentifier: 
+  id: 3
+  objective: Collect all stolen keycards
+  description: The keycards provide access to the upper realms
+  type: 0
+  state: 0
+  icon: {fileID: 0}
+  attributes:
+  - name: 1
+    value: 3
+    isBool: 0
+  - name: 3
+    value: 1
+    isBool: 0
+  provider: {fileID: 114174698790317622, guid: d89ad63d00e11e446a988e93b6abe772, type: 3}
+  isInEquipArea: 0
+  isAccepted: 0
+  isInitiallyActive: 0
+  parent: {fileID: 114709903842452766}
+  gatherItem: {fileID: 114902261502275730, guid: 449d33908f7bfda46a4afc37c7edf7c1,
+    type: 2}
+  targetType: 2
+  Target: {fileID: 0}
+  _targetName: 
+  killWithThis: {fileID: 0}
+  tagObjectTag: 
+  reloadLocationOnDecline: {fileID: 0}
+  secondaryQuestListData: {fileID: 0}
+  secondaryQuestReferenceList: []
+  filteredQuests: []
+  secondaryQuestTypeFilter: 00000000
+  dependencyQuestListData: {fileID: 0}
+  dependencyQuestReferenceList: []
+  filteredDependencyQuests: []
+  dependencyQuestFilter: 00000000
+  rewardItemListData: {fileID: 0}
+  filteredRewardItems: []
+  rewardFilter: 00000000
+  rewardItemReferenceList: []
+  gatherItemListData: {fileID: 11400000, guid: 449d33908f7bfda46a4afc37c7edf7c1, type: 2}
+  killWithItemListData: {fileID: 0}
+--- !u!114 &114153951413686120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 137f4627fb55f434ab579718e357301b, type: 3}
+  m_Name: Kill the boss
+  m_EditorClassIdentifier: 
+  id: 5
+  objective: Kill the boss
+  description: Kill the boss and come back
+  type: 2
+  state: 0
+  icon: {fileID: 21300006, guid: 72f7d3138d397a94d82105b26272e764, type: 3}
+  attributes:
+  - name: 13
+    value: 1
+    isBool: 0
+  - name: 2
+    value: 0
+    isBool: 0
+  provider: {fileID: 114174698790317622, guid: d89ad63d00e11e446a988e93b6abe772, type: 3}
+  isInEquipArea: 0
+  isAccepted: 0
+  isInitiallyActive: 0
+  parent: {fileID: 0}
+  gatherItem: {fileID: 0}
+  targetType: 2
+  Target: {fileID: 1048380088547026, guid: d89ad63d00e11e446a988e93b6abe772, type: 3}
+  _targetName: VBOT2.0_GreenSkin
+  killWithThis: {fileID: 0}
+  tagObjectTag: 
+  reloadLocationOnDecline: {fileID: 0}
+  secondaryQuestListData: {fileID: 0}
+  secondaryQuestReferenceList: []
+  filteredQuests: []
+  secondaryQuestTypeFilter: 00000000
+  dependencyQuestListData: {fileID: 0}
+  dependencyQuestReferenceList: []
+  filteredDependencyQuests: []
+  dependencyQuestFilter: 00000000
+  rewardItemListData: {fileID: 0}
+  filteredRewardItems: []
+  rewardFilter: 00000000
+  rewardItemReferenceList: []
+  gatherItemListData: {fileID: 0}
+  killWithItemListData: {fileID: 0}
+--- !u!114 &114165526555254354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 137f4627fb55f434ab579718e357301b, type: 3}
+  m_Name: Kill Enemy 03
+  m_EditorClassIdentifier: 
+  id: 2
+  objective: Kill Enemy 03
+  description: Kill Enemy 03
+  type: 2
+  state: 0
+  icon: {fileID: 0}
+  attributes: []
+  provider: {fileID: 114174698790317622, guid: d89ad63d00e11e446a988e93b6abe772, type: 3}
+  isInEquipArea: 0
+  isAccepted: 0
+  isInitiallyActive: 0
+  parent: {fileID: 114709903842452766}
+  gatherItem: {fileID: 0}
+  targetType: 0
+  Target: {fileID: 0}
+  _targetName: 
+  killWithThis: {fileID: 0}
+  tagObjectTag: 
+  reloadLocationOnDecline: {fileID: 0}
+  secondaryQuestListData: {fileID: 0}
+  secondaryQuestReferenceList: []
+  filteredQuests: []
+  secondaryQuestTypeFilter: 00000000
+  dependencyQuestListData: {fileID: 0}
+  dependencyQuestReferenceList: []
+  filteredDependencyQuests: []
+  dependencyQuestFilter: 00000000
+  rewardItemListData: {fileID: 11400000, guid: 449d33908f7bfda46a4afc37c7edf7c1, type: 2}
+  filteredRewardItems: []
+  rewardFilter: 00000000
+  rewardItemReferenceList: []
+  gatherItemListData: {fileID: 0}
+  killWithItemListData: {fileID: 0}
+--- !u!114 &114263392984580200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 137f4627fb55f434ab579718e357301b, type: 3}
+  m_Name: Kill the Masked Voxen. Collect more Meta Kords
+  m_EditorClassIdentifier: 
+  id: 11
+  objective: '* Kill the Masked Voxen
+
+    * Bring  Meta Kords for Weapons'
+  description: Kill the Masked Voxen and Bring me the Meta Kords
+  type: 3
+  state: 0
+  icon: {fileID: 21300000, guid: 72f7d3138d397a94d82105b26272e764, type: 3}
+  attributes:
+  - name: 2
+    value: 0
+    isBool: 0
+  - name: 6
+    value: 1
+    isBool: 0
+  - name: 13
+    value: 0
+    isBool: 0
+  provider: {fileID: 114174698790317622, guid: d89ad63d00e11e446a988e93b6abe772, type: 3}
+  isInEquipArea: 0
+  isAccepted: 0
+  isInitiallyActive: 0
+  parent: {fileID: 0}
+  gatherItem: {fileID: 0}
+  targetType: 2
+  Target: {fileID: 1048380088547026, guid: d89ad63d00e11e446a988e93b6abe772, type: 3}
+  _targetName: VBOT2.0_GreenSkin
+  killWithThis: {fileID: 0}
+  tagObjectTag: 
+  reloadLocationOnDecline: {fileID: 0}
+  secondaryQuestListData: {fileID: 11400000}
+  secondaryQuestReferenceList:
+  - id: 0
+    attributes: []
+    changeAttributes: 0
+    provider: {fileID: 0}
+    state: 0
+  - id: 1
+    attributes: []
+    changeAttributes: 0
+    provider: {fileID: 0}
+    state: 0
+  - id: 2
+    attributes: []
+    changeAttributes: 0
+    provider: {fileID: 0}
+    state: 0
+  filteredQuests: []
+  secondaryQuestTypeFilter: 00000000
+  dependencyQuestListData: {fileID: 0}
+  dependencyQuestReferenceList: []
+  filteredDependencyQuests: []
+  dependencyQuestFilter: 02000000
+  rewardItemListData: {fileID: 11400000, guid: 449d33908f7bfda46a4afc37c7edf7c1, type: 2}
+  filteredRewardItems: []
+  rewardFilter: 00000000
+  rewardItemReferenceList:
+  - id: 24
+    amount: 100
+    attributes: []
+    changeAttributes: 0
+    autoEquip: 0
+    indexArea: 0
+  gatherItemListData: {fileID: 0}
+  killWithItemListData: {fileID: 0}
+--- !u!114 &114292160054189064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 137f4627fb55f434ab579718e357301b, type: 3}
+  m_Name: Take the Dragon Kord
+  m_EditorClassIdentifier: 
+  id: 9
+  objective: 'Take Dragon Kord '
+  description: Find The Dragon Sword
+  type: 6
+  state: 0
+  icon: {fileID: 21300000, guid: a8e6fbe3fbd38014294c948853c1e3ed, type: 3}
+  attributes: []
+  provider: {fileID: 0}
+  isInEquipArea: 0
+  isAccepted: 0
+  isInitiallyActive: 1
+  parent: {fileID: 0}
+  gatherItem: {fileID: 0}
+  targetType: 0
+  Target: {fileID: 0}
+  _targetName: 
+  killWithThis: {fileID: 0}
+  tagObjectTag: 
+  reloadLocationOnDecline: {fileID: 0}
+  secondaryQuestListData: {fileID: 0}
+  secondaryQuestReferenceList: []
+  filteredQuests: []
+  secondaryQuestTypeFilter: 00000000
+  dependencyQuestListData: {fileID: 0}
+  dependencyQuestReferenceList: []
+  filteredDependencyQuests: []
+  dependencyQuestFilter: 00000000
+  rewardItemListData: {fileID: 0}
+  filteredRewardItems: []
+  rewardFilter: 00000000
+  rewardItemReferenceList: []
+  gatherItemListData: {fileID: 0}
+  killWithItemListData: {fileID: 0}
+--- !u!114 &114300590857487808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 137f4627fb55f434ab579718e357301b, type: 3}
+  m_Name: Activate Phase 1
+  m_EditorClassIdentifier: 
+  id: 8
+  objective: 'Teir 1 Go to Door Gate for '
+  description: '..You most go to Phase 1 and talk to me there to get my MKs back to
+    build you new weapons...
+
+
+    ...Meta Kords will help you along your missions to buy power up items or weapons....'
+  type: 6
+  state: 0
+  icon: {fileID: 21300000, guid: a8e6fbe3fbd38014294c948853c1e3ed, type: 3}
+  attributes: []
+  provider: {fileID: 0}
+  isInEquipArea: 0
+  isAccepted: 0
+  isInitiallyActive: 0
+  parent: {fileID: 0}
+  gatherItem: {fileID: 0}
+  targetType: 0
+  Target: {fileID: 0}
+  _targetName: 
+  killWithThis: {fileID: 0}
+  tagObjectTag: 
+  reloadLocationOnDecline: {fileID: 0}
+  secondaryQuestListData: {fileID: 0}
+  secondaryQuestReferenceList: []
+  filteredQuests: []
+  secondaryQuestTypeFilter: 00000000
+  dependencyQuestListData: {fileID: 0}
+  dependencyQuestReferenceList: []
+  filteredDependencyQuests: []
+  dependencyQuestFilter: 00000000
+  rewardItemListData: {fileID: 0}
+  filteredRewardItems: []
+  rewardFilter: 00000000
+  rewardItemReferenceList: []
+  gatherItemListData: {fileID: 0}
+  killWithItemListData: {fileID: 0}
+--- !u!114 &114333300214296034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 137f4627fb55f434ab579718e357301b, type: 3}
+  m_Name: Find Ryealm
+  m_EditorClassIdentifier: 
+  id: 7
+  objective: Talk to Ryealm for Missions
+  description: Ryealm will tell you all you need to know.
+  type: 6
+  state: 0
+  icon: {fileID: 21300000, guid: a8e6fbe3fbd38014294c948853c1e3ed, type: 3}
+  attributes: []
+  provider: {fileID: 0}
+  isInEquipArea: 0
+  isAccepted: 0
+  isInitiallyActive: 1
+  parent: {fileID: 0}
+  gatherItem: {fileID: 0}
+  targetType: 0
+  Target: {fileID: 0}
+  _targetName: 
+  killWithThis: {fileID: 0}
+  tagObjectTag: 
+  reloadLocationOnDecline: {fileID: 0}
+  secondaryQuestListData: {fileID: 0}
+  secondaryQuestReferenceList: []
+  filteredQuests: []
+  secondaryQuestTypeFilter: 00000000
+  dependencyQuestListData: {fileID: 0}
+  dependencyQuestReferenceList: []
+  filteredDependencyQuests: []
+  dependencyQuestFilter: 00000000
+  rewardItemListData: {fileID: 0}
+  filteredRewardItems: []
+  rewardFilter: 00000000
+  rewardItemReferenceList: []
+  gatherItemListData: {fileID: 0}
+  killWithItemListData: {fileID: 0}
+--- !u!114 &114449815714864012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 137f4627fb55f434ab579718e357301b, type: 3}
+  m_Name: The Paravox Research
+  m_EditorClassIdentifier: 
+  id: 10
+  objective: Collect to Trade Items for Weapons
+  description: Think of me as your spell book for weaponsand items to carry out your
+    missions.  Can you build all the crafts in this aresenal.
+  type: 6
+  state: 0
+  icon: {fileID: 21300000, guid: a8e6fbe3fbd38014294c948853c1e3ed, type: 3}
+  attributes: []
+  provider: {fileID: 0}
+  isInEquipArea: 0
+  isAccepted: 0
+  isInitiallyActive: 1
+  parent: {fileID: 0}
+  gatherItem: {fileID: 0}
+  targetType: 0
+  Target: {fileID: 0}
+  _targetName: 
+  killWithThis: {fileID: 0}
+  tagObjectTag: 
+  reloadLocationOnDecline: {fileID: 0}
+  secondaryQuestListData: {fileID: 0}
+  secondaryQuestReferenceList: []
+  filteredQuests: []
+  secondaryQuestTypeFilter: 00000000
+  dependencyQuestListData: {fileID: 0}
+  dependencyQuestReferenceList: []
+  filteredDependencyQuests: []
+  dependencyQuestFilter: 00000000
+  rewardItemListData: {fileID: 0}
+  filteredRewardItems: []
+  rewardFilter: 00000000
+  rewardItemReferenceList: []
+  gatherItemListData: {fileID: 0}
+  killWithItemListData: {fileID: 0}
+--- !u!114 &114709903842452766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 137f4627fb55f434ab579718e357301b, type: 3}
+  m_Name: Kill my enemies and bring me keycards
+  m_EditorClassIdentifier: 
+  id: 4
+  objective: '* Kill the Voxen
+
+    * Bring  blue Kord cards'
+  description: Kill the Voxen and Bring me the Key Cards
+  type: 3
+  state: 0
+  icon: {fileID: 21300000, guid: 72f7d3138d397a94d82105b26272e764, type: 3}
+  attributes:
+  - name: 2
+    value: 0
+    isBool: 0
+  - name: 6
+    value: 1
+    isBool: 0
+  - name: 13
+    value: 0
+    isBool: 0
+  provider: {fileID: 114174698790317622, guid: d89ad63d00e11e446a988e93b6abe772, type: 3}
+  isInEquipArea: 0
+  isAccepted: 0
+  isInitiallyActive: 0
+  parent: {fileID: 0}
+  gatherItem: {fileID: 0}
+  targetType: 2
+  Target: {fileID: 1048380088547026, guid: d89ad63d00e11e446a988e93b6abe772, type: 3}
+  _targetName: VBOT2.0_GreenSkin
+  killWithThis: {fileID: 0}
+  tagObjectTag: 
+  reloadLocationOnDecline: {fileID: 0}
+  secondaryQuestListData: {fileID: 11400000}
+  secondaryQuestReferenceList:
+  - id: 0
+    attributes: []
+    changeAttributes: 0
+    provider: {fileID: 0}
+    state: 0
+  - id: 1
+    attributes: []
+    changeAttributes: 0
+    provider: {fileID: 0}
+    state: 0
+  - id: 2
+    attributes: []
+    changeAttributes: 0
+    provider: {fileID: 0}
+    state: 0
+  filteredQuests: []
+  secondaryQuestTypeFilter: 00000000
+  dependencyQuestListData: {fileID: 0}
+  dependencyQuestReferenceList: []
+  filteredDependencyQuests: []
+  dependencyQuestFilter: 02000000
+  rewardItemListData: {fileID: 11400000, guid: 449d33908f7bfda46a4afc37c7edf7c1, type: 2}
+  filteredRewardItems: []
+  rewardFilter: 00000000
+  rewardItemReferenceList:
+  - id: 24
+    amount: 100
+    attributes: []
+    changeAttributes: 0
+    autoEquip: 0
+    indexArea: 0
+  gatherItemListData: {fileID: 0}
+  killWithItemListData: {fileID: 0}
+--- !u!114 &114729265169317056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 137f4627fb55f434ab579718e357301b, type: 3}
+  m_Name: Kill Enemy 01
+  m_EditorClassIdentifier: 
+  id: 0
+  objective: Kill Enemy 01 and his golayas
+  description: Enemy one is a tough guy
+  type: 2
+  state: 0
+  icon: {fileID: 0}
+  attributes:
+  - name: 5
+    value: 1
+    isBool: 0
+  provider: {fileID: 114174698790317622, guid: d89ad63d00e11e446a988e93b6abe772, type: 3}
+  isInEquipArea: 0
+  isAccepted: 0
+  isInitiallyActive: 0
+  parent: {fileID: 114709903842452766}
+  gatherItem: {fileID: 0}
+  targetType: 0
+  Target: {fileID: 0}
+  _targetName: 
+  killWithThis: {fileID: 0}
+  tagObjectTag: 
+  reloadLocationOnDecline: {fileID: 0}
+  secondaryQuestListData: {fileID: 0}
+  secondaryQuestReferenceList: []
+  filteredQuests: []
+  secondaryQuestTypeFilter: 00000000
+  dependencyQuestListData: {fileID: 0}
+  dependencyQuestReferenceList: []
+  filteredDependencyQuests: []
+  dependencyQuestFilter: 00000000
+  rewardItemListData: {fileID: 11400000, guid: 449d33908f7bfda46a4afc37c7edf7c1, type: 2}
+  filteredRewardItems: []
+  rewardFilter: 00000000
+  rewardItemReferenceList:
+  - id: 24
+    amount: 1
+    attributes: []
+    changeAttributes: 0
+    autoEquip: 0
+    indexArea: 0
+  gatherItemListData: {fileID: 0}
+  killWithItemListData: {fileID: 0}
+--- !u!114 &114894719325242116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 137f4627fb55f434ab579718e357301b, type: 3}
+  m_Name: Kill Enemy 02
+  m_EditorClassIdentifier: 
+  id: 1
+  objective: Kill Enemy 02
+  description: Kill Enemy 02
+  type: 2
+  state: 0
+  icon: {fileID: 0}
+  attributes: []
+  provider: {fileID: 114174698790317622, guid: d89ad63d00e11e446a988e93b6abe772, type: 3}
+  isInEquipArea: 0
+  isAccepted: 0
+  isInitiallyActive: 0
+  parent: {fileID: 114709903842452766}
+  gatherItem: {fileID: 0}
+  targetType: 0
+  Target: {fileID: 0}
+  _targetName: 
+  killWithThis: {fileID: 0}
+  tagObjectTag: 
+  reloadLocationOnDecline: {fileID: 0}
+  secondaryQuestListData: {fileID: 0}
+  secondaryQuestReferenceList: []
+  filteredQuests: []
+  secondaryQuestTypeFilter: 00000000
+  dependencyQuestListData: {fileID: 0}
+  dependencyQuestReferenceList: []
+  filteredDependencyQuests: []
+  dependencyQuestFilter: 00000000
+  rewardItemListData: {fileID: 11400000, guid: 449d33908f7bfda46a4afc37c7edf7c1, type: 2}
+  filteredRewardItems: []
+  rewardFilter: 00000000
+  rewardItemReferenceList:
+  - id: 24
+    amount: 1
+    attributes: []
+    changeAttributes: 0
+    autoEquip: 0
+    indexArea: 0
+  gatherItemListData: {fileID: 0}
+  killWithItemListData: {fileID: 0}
+--- !u!114 &114957303746663316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 137f4627fb55f434ab579718e357301b, type: 3}
+  m_Name: Lair of the wolves
+  m_EditorClassIdentifier: 
+  id: 6
+  objective: Discover the lair of the wolves
+  description: Discover the lair of the wolves
+  type: 1
+  state: 0
+  icon: {fileID: 21300000, guid: 52070fb95bdb5a543877cdd6005b576d, type: 3}
+  attributes:
+  - name: 3
+    value: 1
+    isBool: 0
+  - name: 0
+    value: 120
+    isBool: 0
+  - name: 5
+    value: 1
+    isBool: 0
+  - name: 14
+    value: 0
+    isBool: 0
+  - name: 16
+    value: 25
+    isBool: 0
+  provider: {fileID: 114174698790317622, guid: d89ad63d00e11e446a988e93b6abe772, type: 3}
+  isInEquipArea: 0
+  isAccepted: 0
+  isInitiallyActive: 0
+  parent: {fileID: 114709903842452766}
+  gatherItem: {fileID: 0}
+  targetType: 0
+  Target: {fileID: 0}
+  _targetName: 
+  killWithThis: {fileID: 0}
+  tagObjectTag: 
+  reloadLocationOnDecline: {fileID: 0}
+  secondaryQuestListData: {fileID: 0}
+  secondaryQuestReferenceList: []
+  filteredQuests: []
+  secondaryQuestTypeFilter: 00000000
+  dependencyQuestListData: {fileID: 0}
+  dependencyQuestReferenceList: []
+  filteredDependencyQuests: []
+  dependencyQuestFilter: 00000000
+  rewardItemListData: {fileID: 0}
+  filteredRewardItems: []
+  rewardFilter: 00000000
+  rewardItemReferenceList: []
+  gatherItemListData: {fileID: 0}
+  killWithItemListData: {fileID: 0}
